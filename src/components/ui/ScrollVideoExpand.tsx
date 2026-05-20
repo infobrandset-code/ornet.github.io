@@ -49,7 +49,7 @@ export default function ScrollVideoExpand({
         height: `${scrollHeight * 100}dvh`,
       }}
     >
-      <div className="sticky top-0 w-full h-screen flex max-sm:flex-col items-center max-sm:justify-center sm:justify-end">
+      <div className="sticky top-0 w-full h-screen flex max-sm:flex-col items-center max-sm:justify-center sm:justify-end overflow-hidden">
         {children && <div className="absolute inset-0 z-30">{children}</div>}
         <motion.div
           className="shadow-xl shadow-[#9FE870]/30"

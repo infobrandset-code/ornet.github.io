@@ -13,7 +13,7 @@ import Footer from "./components/layout/Footer";
 
 export default function App() {
   return (
-    <div className="relative min-h-screen bg-[#121414] text-white selection:bg-[#9FE870] selection:text-black overflow-x-hidden antialiased font-sans">
+    <div className="relative max-w-full min-h-screen bg-[#121414] text-white selection:bg-[#9FE870] selection:text-black antialiased font-sans">
       {/* Sticky navigation bar */}
       <Navbar />
 

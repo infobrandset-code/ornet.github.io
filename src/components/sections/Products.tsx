@@ -3,8 +3,6 @@ import SectionHeading from "../ui/SectionHeading";
 import ProductCard from "../ui/ProductCard";
 import useInView from "../../hooks/useInView";
 
-
-
 export default function Products() {
   const [ref, inView] = useInView<HTMLDivElement>({ threshold: 0.05 });
 
@@ -30,12 +28,14 @@ export default function Products() {
               }`}
               style={{
                 transitionDelay: `${i * 150}ms`,
-                transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)"
+                transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)",
               }}
             >
               <ProductCard
                 item={item}
-                image={item.image || "/images/transformer-main.png"}
+                image={
+                  item.image || "/ornet.github.io/images/transformer-main.png"
+                }
                 index={i}
               />
             </div>

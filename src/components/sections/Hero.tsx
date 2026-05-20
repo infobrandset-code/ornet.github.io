@@ -5,7 +5,7 @@ import ScrollVideoExpand from "../ui/ScrollVideoExpand";
 
 export default function Hero() {
   return (
-    <ScrollVideoExpand src="/images/Testing/hero-video.mp4">
+    <ScrollVideoExpand src="/ornet.github.io/images/Testing/hero-video.mp4">
       <section className="relative min-h-screen flex items-center">
         {/* Light Cinematic Overlay for Text Legibility */}
         <div
